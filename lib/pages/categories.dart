@@ -3,6 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:search/pages/facts.dart';
+import 'package:audioplayers/audio_cache.dart';
+
+AudioCache audioCache = new AudioCache();
 
 class Categories extends StatefulWidget {
   @override
@@ -25,7 +28,8 @@ class _CategoriesState extends State<Categories> {
       ),
       child: InkWell(
         onTap: (){
-         Navigator.of(context).pushReplacement(MaterialPageRoute(
+          audioCache.play('click.mp3');
+         Navigator.of(context).push(MaterialPageRoute(
           builder:(context)=>Getfactjson(langname),
          // builder: (context ,' /facts')
             ));
@@ -107,6 +111,7 @@ class _CategoriesState extends State<Categories> {
                     Icons.settings,
                   ),
                   onPressed: () {
+                    audioCache.play('click.mp3');
                     Navigator.pushNamed(context, '/settings');
                     print('settings');
                   },

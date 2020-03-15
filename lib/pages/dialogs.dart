@@ -26,7 +26,8 @@ class Dialogs{
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),),
               color: Colors.purple,
-              onPressed: () => Navigator.of(context).pop(DialogAction.abort),
+              onPressed: ((){ 
+                Navigator.of(context).pop(DialogAction.abort);}),
               child: const Text('No'),
             
             ),
@@ -34,7 +35,9 @@ class Dialogs{
                shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),),
               color: Colors.purple,
-              onPressed: () => exit(0),
+              onPressed: ((){
+                exit(0);
+              }),
               child: const Text('Yes'),
             
             ),

@@ -6,7 +6,7 @@
         "3": "What does egg contains, which helps to decrease sight loss?",
         "4": "What type of Rays do gadgets produce that are harmfu; to eyes? ",
         "5": "Aloe Vera contains vitamin as well as antioxidant which helps in....",
-        "6": "To increase vission we need Vitamin A. Which of the following contains Vitamin A?"
+        "6": "To increase vision we need Vitamin A. Which of the following contains Vitamin A?"
     },   
         
     {
@@ -24,7 +24,7 @@
         },
         "3": {
             "a": "Iron, Vitamin D and Vitamin E",
-            "b": "Vitamin D, Vitamin C and zinc",
+            "b": "Vitamin D, Vitamin C and Zinc",
             "c": "Vitamin D, Vitamin C and Vitamin E",
             "d": "Omega-3"
         },
@@ -38,12 +38,12 @@
             "a": "Tissue recovery",
             "b": "Decreases dry eye",
             "c": "Changing eye color",
-            "d": "Nnne of the above"
+            "d": "None of the above"
         },
         "6": {
             "a": "Egg",
             "b": "Chocolate",
-            "c": "Lemmon",
+            "c": "Lemon",
             "d": "Carrot"
         }
     },    
@@ -51,7 +51,7 @@
     {
         "1": "Water and tofu ",
         "2": "20 minutes",
-        "3": "Vitamin D, Vitamin C and zinc",
+        "3": "Vitamin D, Vitamin C and Zinc",
         "4": "Blue Ray",
         "5": "Tissue recovery",
         "6": "Carrot"

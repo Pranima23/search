@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 //import 'package:flutter/services.dart';
 import 'dart:convert';
 import 'package:search/pages/quiz.dart'; 
+import 'package:audioplayers/audio_cache.dart';
+
+AudioCache audioCache = new AudioCache();
 
 
 //import 'package:splashscreen/quizpage.dart';
@@ -27,7 +30,7 @@ class Getfactjson extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text("FACTS"),
+        title: new Text("FACTS ABOUT " + langFactName),
         backgroundColor: Colors.purple,
       ),
       body: new Container(
@@ -82,12 +85,16 @@ class Getfactjson extends StatelessWidget {
                       minWidth: 150,
                       elevation: 10.0,
                       child: Text(
-                        'Play Quiz!',
+                        'PLAY QUIZ!',
                         style: TextStyle(
+                          //fontFamily: 'IndieFlower',
+                          fontSize: 20.0,
+                          letterSpacing: 1.5,
                           color: Colors.white,
                         ),
                       ),
                       onPressed: (){
+                        audioCache.play('click.mp3');
                         Navigator.of(context).pushReplacement(MaterialPageRoute(
           builder:(context)=>GetJson(langFactName),
          // builder: (context ,' /facts')

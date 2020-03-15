@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:search/pages/dialogs.dart';
 import 'package:audioplayers/audio_cache.dart';
-//import 'package:audioplayers/audioplayers.dart';
 
 
 class Home extends StatefulWidget {
@@ -12,7 +11,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-  AudioCache audioCache = new AudioCache(); 
+  AudioCache audioCache = new AudioCache();
 
   @override
   void initState() {
@@ -35,6 +34,7 @@ class _HomeState extends State<Home> {
                     Icons.settings,
                   ),
                   onPressed: () {
+                    //SystemSound.play(SystemSoundType.click);
                     audioCache.play('click.mp3');
                     Navigator.pushNamed(context, '/settings');
                     print('settings');
@@ -70,6 +70,7 @@ class _HomeState extends State<Home> {
                   onPressed: (){
                     audioCache.play('click.mp3');
                     Navigator.pushNamed(context, '/categories');
+                   // if (setSound() == true) audioCache.play('click.mp3');
                   },
                 ),
               ],

@@ -1,14 +1,29 @@
 [
-    {
-        "*":"Drinking water hydrates your eyes. It decreases dry eyes"
-    },
-      {  "*":"If you want to have a great vision eat carrot once a day, since, it contains vitamin A."},
-        {"*":"When you are using electronic gadgets, rest your eyes every 20 minutes. Look 20 feet away for 20 seconds. At least after every 2 hours take a 15- minutes break, if you don’t want to wear glasses anytime sooner."},
-       { "*":"Studies have shown that egg contains zinc, vitamin C, vitamin D which helps to decrease sight loss."},
-        {"*":"Citrus fruits like orange and lemons contains Vitamin C and Vitamin E which improves sight."},
-        {"*":"Research has found that tofu contains omega-3, which decreases dry eyes. Dry eyes are common problem faced by the people these days, due to regular use of gadgets. So, if you want to use gadgets and have a healthy eye eat tofu."},
-        {"*":"Using Gadgets hampers sleep-regulating hormone secreted by your brain. For this you have to stop using any gadgets one hour before you sleep. Eating something after you stop using gadgets can reproduce the hormone to sleep peacefully."},
-        {"*":"Gadgets produce blue rays which are harmful to eyes."},
-        {"*":"Aloe Vera contains vitamins as well as antioxidant which helps in white blood cell reproduction and tissue recovery."}
-    
+  {
+    "*": "Drinking water hydrates your eyes. It decreases dry eyes"
+  },
+  {
+    "*": "If you want to have a great vision eat carrot once a day, since, it contains vitamin A."
+  },
+  {
+    "*": "When you are using electronic gadgets, rest your eyes every 20 minutes."
+  },
+  {
+    "*": "Studies have shown that egg contains Zinc, Vitamin C, Vitamin D which helps to decrease sight loss."
+  },
+  {
+    "*": "Citrus fruits like orange and lemons contains Vitamin C and Vitamin E which improves sight."
+  },
+  {
+    "*": "Tofu contains omega-3, which decreases dry eyes.So, if you want to use gadgets and have a healthy eye eat tofu."
+  },
+  {
+    "*": " If you stop using gadgets one hour befor sleeping ,you can sleep peacefully."
+  },
+  {
+    "*": "Gadgets produce blue rays which are harmful to eyes."
+  },
+  {
+    "*": "Aloe Vera contains vitamins as well as antioxidant which helps in tissue recovery."
+  }
 ]

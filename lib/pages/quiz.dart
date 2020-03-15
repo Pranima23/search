@@ -3,6 +3,10 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:search/pages/result.dart';
+import 'package:audioplayers/audio_cache.dart';
+
+AudioCache audioCache = new AudioCache();
+
 
 class GetJson extends StatelessWidget{
   final langName;
@@ -71,7 +75,9 @@ Map<String, Color> btncolor={
      Timer.periodic(onesec,(Timer t){
        setState(() {
          if (timer < 1){
+           audioCache.play('wrong.mp3');
            t.cancel();
+
            nextquestion();
          }else if(canceltimer== true){
            t.cancel();
@@ -107,8 +113,10 @@ Map<String, Color> btncolor={
     if(mydata[2][index.toString()].toString().trim() == mydata[1][index.toString()][k].toString().trim()){
     marks= marks +5; 
     colortoshow = right;
+    audioCache.play('correct.mp3');
   }else{
     colortoshow = wrong;
+    audioCache.play('wrong.mp3');
   }
 
   setState((){

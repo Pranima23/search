@@ -1,6 +1,10 @@
 import "package:flutter/material.dart";
 import 'package:search/pages/categories.dart';
 import 'package:search/pages/dialogs.dart';
+import 'package:audioplayers/audio_cache.dart';
+
+AudioCache audioCache = new AudioCache();
+
 
 class Result extends StatefulWidget {
   final marks;
@@ -24,12 +28,15 @@ class _ResultState extends State<Result> {
     if (marks >= 25) {
       image = images[0];
       message = "You did very well \n" + "You Scored $marks";
+      audioCache.play('smile.mp3');
     } else if (15 < marks && marks < 25) {
       image = images[1];
       message = "You Can Do Better..\n" + "You Scored $marks";
+      audioCache.play('good.mp3');
     } else {
       image = images[2];
       message = "Better luck next time..\n" + "You Scored $marks";
+      audioCache.play('bad.mp3');
     }
     super.initState();
   }
@@ -94,6 +101,7 @@ class _ResultState extends State<Result> {
               children: <Widget>[
                 OutlineButton(
                   onPressed: () {
+                    audioCache.play('click.mp3');
                     Navigator.of(context).pushReplacement(MaterialPageRoute(
                       builder: (context) => Categories(),
                     ));
@@ -113,6 +121,7 @@ class _ResultState extends State<Result> {
                 OutlineButton(
                   onPressed: (() async {
                     print('exit');
+                    audioCache.play('click.mp3');
                     await Dialogs.yesAbortDialog(
                       context,
                       'Do you want to exit?',

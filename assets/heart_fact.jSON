@@ -1,18 +1,29 @@
 [
     {
-        "1":"The average of a heart is the size of a fist in an adult."
+        "*": "The average of a heart is the size of a fist in an adult."
     },
-    
-    {"2":"Whales have the largest heart of any mammal"
+    {
+        "*": "Whales have the largest heart of any mammal"
     },
-    { "3":"A woman’s heat beats slightly faster than a man’s heart."},
-    {"4":"Laughing is good for your heart. It reduces stress and gives a boost to your immune system."},
-    { "5":"Research has found that green vegetables contain Vitamin K, which helps protect your arteries and promote proper blood clotting."},
-    {  "6":"Studies show that eating whole grains decreases risk of heart diseases."},
-    {   "7":"Heart is situated in the middle of your chest between your two lungs. It is protected by your ribs."},
-    {  "8":"To keep your heart healthy you need to get at least 30 minutes of exercise."},
-     { "9":"Eating Dark chocolate is good for heart"
-     }
-    
-
+    {
+        "*": "A woman’s heat beats slightly faster than a man’s heart."
+    },
+    {
+        "*": "Laughing is good for your heart. It reduces stress and gives a boost to your immune system."
+    },
+    {
+        "*": "Research has found that green vegetables contain Vitamin K, which helps protect your arteries"
+    },
+    {
+        "*": "Studies show that eating whole grains decreases risk of heart diseases."
+    },
+    {
+        "*": "Heart is situated in the middle of your chest between your two lungs."
+    },
+    {
+        "*": "To keep your heart healthy you need to get at least 30 minutes of exercise."
+    },
+    {
+        "*": "Eating Dark chocolate is good for heart"
+    }
 ]
