@@ -86,7 +86,7 @@ class _SettingState extends State<Setting> {
                                   _music = value;
                                 });
                                 if (value==true){
-                                  cache.play('music.mp3');
+                                  cache.loop('music.mp3');
                                 }
                                 else{
                                   advancedPlayer.pause();
