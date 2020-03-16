@@ -18,7 +18,7 @@ class _SettingState extends State<Setting> {
   
 
   bool _music = false;
-  bool _sound = false;
+  bool _sound = true;
   AudioPlayer advancedPlayer = new AudioPlayer();
   AudioCache cache = new AudioCache();
     AudioCache audioCache = new AudioCache();

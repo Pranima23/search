@@ -7,20 +7,6 @@ import 'package:audioplayers/audio_cache.dart';
 
 AudioCache audioCache = new AudioCache();
 
-
-//import 'package:splashscreen/quizpage.dart';
-String changeToQuiz(String langFactName) {
-  String langName;
-  if (langFactName == "EYES") {
-    langName = "eyes1";
-  } else if (langFactName == "NOSE") {
-    langName = "nose1";
-  } else {
-    langName = "heart1";
-  }
-  return langName;
-}
-
 class Getfactjson extends StatelessWidget {
   final langFactName;
 

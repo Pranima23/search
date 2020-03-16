@@ -12,7 +12,6 @@ class Loading extends StatelessWidget {
               seconds: 5,
               image: Image.asset('images/icon.jpeg'),
               loaderColor: Colors.white,
-              //gradientBackground: new LinearGradient(colors: [Colors.black, Colors.white], begin: Alignment.topLeft, end: Alignment.bottomRight),
               backgroundColor: Colors.black,
               photoSize: 150.0,
               navigateAfterSeconds: Home(),
